@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "pdr-landing",
-      "runtimeExecutable": "/usr/local/bin/python3",
-      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "/Users/ibragimibragimov/Documents/PDR_project"],
+      "runtimeExecutable": "/usr/bin/ruby",
+      "runtimeArgs": ["-run", "-e", "httpd", ".", "-p", "8080"],
       "port": 8080
     }
   ]
